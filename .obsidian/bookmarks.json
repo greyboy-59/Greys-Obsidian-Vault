@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1753325088470,
+      "items": [],
+      "title": "Fleeting"
+    },
+    {
+      "type": "group",
+      "ctime": 1753325094426,
+      "items": [],
+      "title": "Lecture"
+    },
+    {
+      "type": "group",
+      "ctime": 1753325101229,
+      "items": [],
+      "title": "Permanent"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"08 System/Dashboards\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 7713677
+      }
+    },
+    {
+      "query": "path:\"02 Hobbies/Games\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5800646
+      }
+    },
+    {
+      "query": "path:\"02 Hobbies/Franchises\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14213696
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.990437825520833,
+  "lineSizeMultiplier": 0.990437825520833,
+  "collapse-forces": true,
+  "centerStrength": 0.3046875,
+  "repelStrength": 9.98860677083333,
+  "linkStrength": 0,
+  "linkDistance": 250,
+  "scale": 0.031582944004503156,
+  "close": true
+}

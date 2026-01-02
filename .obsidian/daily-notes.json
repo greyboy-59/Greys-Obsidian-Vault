@@ -1,0 +1,6 @@
+{
+  "format": "MM-DD-YY",
+  "folder": "Daily",
+  "autorun": true,
+  "template": "Templates/Fleeting"
+}
