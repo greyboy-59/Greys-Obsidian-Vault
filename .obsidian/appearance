@@ -1,0 +1,26 @@
+{
+  "accentColor": "",
+  "cssTheme": "",
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "translucency": false,
+  "baseFontSize": 18,
+  "enabledCssSnippets": [
+    "mcl multi column.css",
+    "book cover",
+    "mcl multi column",
+    "style callouts",
+    "Book cover v2",
+    "Auto expand callouts",
+    "Game cases - Copy",
+    "Game cases",
+    "Nick Milo - Custom Callouts - Pro",
+    "StyleCallouts",
+    "MCL Multi Column",
+    "Gallery view",
+    "full-width"
+  ],
+  "showRibbon": true
+}
