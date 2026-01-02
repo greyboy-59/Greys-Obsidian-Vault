@@ -1,0 +1,26 @@
+properties:
+  file.name:
+    displayName: Name
+  note.banner:
+    displayName: Banner
+  note.platform:
+    displayName: Platform
+  note.developer:
+    displayName: Developer
+views:
+  - type: table
+    name: Films
+    filters:
+      and:
+        - file.inFolder("02 Hobbies/Films")
+        - Completed == true
+    order:
+      - file.name
+      - Platform
+    sort: []
+    image: note.Banner
+    imageAspectRatio: 0.5
+    imageFit: ""
+    cardSize: 200
+    columnSize:
+      file.name: 456
