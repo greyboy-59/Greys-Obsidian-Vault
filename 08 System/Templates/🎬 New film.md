@@ -1,16 +1,16 @@
 ---
 Banner: {{ image }}
-Category: "[[🎧 Sum Songs|Music]]"
-subCategory: {{ subType }}
+Category: "[[🎬 Films Vault|Films]]"
 type:
-Artist:
-{{ LIST:artists }}
+Studio: {{ studio }}
 Genre:
 Next: false
 In_progress: false
 Completed: false
+Platform:
+Franchise:
 More info: {{ url }}
 id:
 dataSource:
-DNT: "[[🎙️ All]]"
+DNT: "[[📺 All]]"
 ---
