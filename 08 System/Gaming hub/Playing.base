@@ -16,40 +16,17 @@ properties:
   note.developer:
     displayName: Developer
 views:
-  - type: table
+  - type: cards
     name: Games
     filters:
       and:
         - file.inFolder("02 Hobbies/Games")
-        - Completed == true
+        - In_progress == true
+        - Completed != true
     order:
-      - Platinum
       - file.name
       - Publisher
-    sort: []
     image: note.Banner
     imageAspectRatio: 0.5
     imageFit: ""
     cardSize: 200
-    columnSize:
-      note.Platinum: -11
-      file.name: 389
-      note.Publisher: 270
-  - type: table
-    name: Platinum
-    filters:
-      and:
-        - file.inFolder("02 Hobbies/Games")
-        - Completed == true
-        - Platinum == true
-    order:
-      - file.name
-      - Publisher
-    sort: []
-    image: note.Banner
-    imageAspectRatio: 0.5
-    imageFit: ""
-    cardSize: 200
-    columnSize:
-      file.name: 390
-      note.Publisher: 297
