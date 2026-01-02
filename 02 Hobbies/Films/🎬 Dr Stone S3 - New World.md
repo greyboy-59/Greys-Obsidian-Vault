@@ -1,9 +1,9 @@
 ---
-Banner: https://cdn.myanimelist.net/images/anime/2/88336.jpg
+Banner: https://cdn.myanimelist.net/images/anime/1316/136268.jpg
 Category: "[[🎬 Films Vault|Films]]"
 type: series
 Studio:
-  - "[[Studio Pierrot]]"
+  - "[[TMS Entertainment]]"
 Genre:
   - "[[📺 Anime]]"
 Next: false
@@ -12,8 +12,9 @@ Completed: false
 Platform:
   - "[[⭐ Crunchyroll]]"
 Franchise:
-More info: https://myanimelist.net/anime/34572/Black_Clover
-id: 34572
+  - "[[🏅 Dr Stone]]"
+More info: https://myanimelist.net/anime/48549/Dr_Stone__New_World
+id: 48549
 dataSource: MALAPI
 DNT: "[[📺 All]]"
 ---

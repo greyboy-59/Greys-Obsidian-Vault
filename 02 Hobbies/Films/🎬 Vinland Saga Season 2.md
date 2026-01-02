@@ -1,9 +1,9 @@
 ---
-Banner: https://cdn.myanimelist.net/images/anime/2/88336.jpg
+Banner: https://cdn.myanimelist.net/images/anime/1170/124312.jpg
 Category: "[[🎬 Films Vault|Films]]"
 type: series
 Studio:
-  - "[[Studio Pierrot]]"
+  - "[[MAPPA]]"
 Genre:
   - "[[📺 Anime]]"
 Next: false
@@ -12,8 +12,9 @@ Completed: false
 Platform:
   - "[[⭐ Crunchyroll]]"
 Franchise:
-More info: https://myanimelist.net/anime/34572/Black_Clover
-id: 34572
+  - "[[🏅 Vinland Saga (TV series)]]"
+More info: https://myanimelist.net/anime/49387/Vinland_Saga_Season_2
+id: 49387
 dataSource: MALAPI
 DNT: "[[📺 All]]"
 ---

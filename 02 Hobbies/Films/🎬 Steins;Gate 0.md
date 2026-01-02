@@ -1,19 +1,20 @@
 ---
-Banner: https://cdn.myanimelist.net/images/anime/2/88336.jpg
+Banner: https://cdn.myanimelist.net/images/anime/1375/93521.jpg
 Category: "[[🎬 Films Vault|Films]]"
 type: series
 Studio:
-  - "[[Studio Pierrot]]"
+  - "[[White Fox]]"
 Genre:
   - "[[📺 Anime]]"
-Next: false
+Next: true
 In_progress: false
 Completed: false
 Platform:
   - "[[⭐ Crunchyroll]]"
 Franchise:
-More info: https://myanimelist.net/anime/34572/Black_Clover
-id: 34572
+  - "[[🏅 Steins;Gate (TV series)]]"
+More info: https://myanimelist.net/anime/30484/Steins_Gate_0
+id: 30484
 dataSource: MALAPI
 DNT: "[[📺 All]]"
 ---
