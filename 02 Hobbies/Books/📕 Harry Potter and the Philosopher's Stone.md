@@ -1,4 +1,3 @@
-[📕 Harry Potter and the Philosopher's Stone.md](https://github.com/user-attachments/files/24412596/Harry.Potter.and.the.Philosopher.s.Stone.md)
 ---
 Banner: https://covers.openlibrary.org/b/OLID/OL22856696M-L.jpg
 Category: "[[📕 Reading Log|Books]]"
