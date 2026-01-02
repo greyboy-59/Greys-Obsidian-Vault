@@ -1,4 +1,3 @@
-[⭐ Cinema.md](https://github.com/user-attachments/files/24412666/Cinema.md)
 ---
 Banner: https://pbs.twimg.com/media/GoadsWYWgAARwFN.jpg
 Unsuscribed: false
