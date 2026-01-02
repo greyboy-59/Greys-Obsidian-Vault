@@ -17,19 +17,22 @@ properties:
     displayName: Developer
 views:
   - type: table
-    name: Books
+    name: Films
     filters:
       and:
         - file.inFolder("02 Hobbies/Books")
-        - Completed == true
+        - Next != true
+        - In_progress != true
+        - Completed != true
+    groupBy:
+      property: Genre
+      direction: ASC
     order:
       - file.name
       - Author
+      - Next
     sort: []
-    image: note.Banner
-    imageAspectRatio: 0.5
-    imageFit: ""
-    cardSize: 200
     columnSize:
-      file.name: 415
-      note.Author: 267
+      file.name: 467
+      note.Author: 310
+      note.Next: 79

@@ -16,20 +16,17 @@ properties:
   note.developer:
     displayName: Developer
 views:
-  - type: table
+  - type: cards
     name: Books
     filters:
       and:
         - file.inFolder("02 Hobbies/Books")
-        - Completed == true
+        - In_progress == true || Next == true
+        - Completed != true
     order:
       - file.name
       - Author
-    sort: []
     image: note.Banner
     imageAspectRatio: 0.5
     imageFit: ""
     cardSize: 200
-    columnSize:
-      file.name: 415
-      note.Author: 267
