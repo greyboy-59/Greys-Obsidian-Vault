@@ -1,0 +1,74 @@
+{
+  "callouts": {
+    "custom": [
+      "game",
+      "film",
+      "music"
+    ],
+    "settings": {
+      "game": [
+        {
+          "changes": {
+            "icon": "lucide-gamepad-2",
+            "color": "77, 171, 247"
+          }
+        }
+      ],
+      "hint": [
+        {
+          "changes": {
+            "color": "29, 32, 34"
+          }
+        }
+      ],
+      "film": [
+        {
+          "changes": {
+            "icon": "lucide-file-video",
+            "color": "166, 189, 197"
+          }
+        }
+      ],
+      "tldr": [
+        {
+          "changes": {
+            "icon": "lucide-music-4"
+          }
+        }
+      ],
+      "music": [
+        {
+          "changes": {
+            "color": "83, 223, 221"
+          }
+        }
+      ],
+      "pen": [
+        {
+          "changes": {
+            "color": "68, 207, 110"
+          }
+        }
+      ],
+      "banknote": [
+        {
+          "changes": {
+            "color": "168, 130, 255"
+          }
+        }
+      ],
+      "activity": [
+        {
+          "changes": {
+            "icon": "lucide-banknote"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}
