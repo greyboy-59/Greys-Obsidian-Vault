@@ -1,0 +1,1033 @@
+{
+  "OMDbKey": "4442342f",
+  "MobyGamesKey": "",
+  "GiantBombKey": "",
+  "sfwFilter": false,
+  "templates": true,
+  "customDateFormat": "YYYY-MM-DD",
+  "openNoteInNewTab": true,
+  "useDefaultFrontMatter": true,
+  "enableTemplaterIntegration": false,
+  "movieTemplate": "08 System/Templates/🎬 New film.md",
+  "seriesTemplate": "08 System/Templates/🎬 New film.md",
+  "mangaTemplate": "08 System/Templates/📙 New manga.md",
+  "gameTemplate": "08 System/Templates/🕹️ New game.md",
+  "wikiTemplate": "08 System/Templates/🏅 New franchise.md",
+  "musicReleaseTemplate": "08 System/Templates/🎧 New record.md",
+  "boardgameTemplate": "",
+  "bookTemplate": "08 System/Templates/📕 New book.md",
+  "movieFileNameTemplate": "🎬 {{ title }}",
+  "seriesFileNameTemplate": "🎬 {{ title }}",
+  "mangaFileNameTemplate": "📕 {{ title }}",
+  "gameFileNameTemplate": "🕹️ {{ title }}",
+  "wikiFileNameTemplate": "🏅 {{ title }}",
+  "musicReleaseFileNameTemplate": "🎧 {{ title }}",
+  "boardgameFileNameTemplate": "{{ title }} ({{ year }})",
+  "bookFileNameTemplate": "📕 {{ title }}",
+  "moviePropertyConversionRules": "",
+  "seriesPropertyConversionRules": "",
+  "mangaPropertyConversionRules": "",
+  "gamePropertyConversionRules": "",
+  "wikiPropertyConversionRules": "",
+  "musicReleasePropertyConversionRules": "",
+  "boardgamePropertyConversionRules": "",
+  "bookPropertyConversionRules": "",
+  "movieFolder": "02 Hobbies/Films",
+  "seriesFolder": "02 Hobbies/Films",
+  "mangaFolder": "02 Hobbies/Books",
+  "gameFolder": "02 Hobbies/Games",
+  "wikiFolder": "02 Hobbies/Franchises",
+  "musicReleaseFolder": "02 Hobbies/Music/Records",
+  "boardgameFolder": "",
+  "bookFolder": "02 Hobbies/Books",
+  "propertyMappingModels": [
+    {
+      "type": "movie",
+      "properties": [
+        {
+          "property": "type",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "subType",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "title",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "englishTitle",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "year",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "dataSource",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "url",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "id",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "plot",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "genres",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "director",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "writer",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "studio",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "duration",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "onlineRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "actors",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "image",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "released",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "streamingServices",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "premiere",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "watched",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "lastWatched",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "personalRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "tags",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        }
+      ]
+    },
+    {
+      "type": "series",
+      "properties": [
+        {
+          "property": "type",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "subType",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "title",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "englishTitle",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "year",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "dataSource",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "url",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "id",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "plot",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "genres",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "writer",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "studio",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "episodes",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "duration",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "onlineRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "actors",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "image",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "released",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "streamingServices",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "airing",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "airedFrom",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "airedTo",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "watched",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "lastWatched",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "personalRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "tags",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        }
+      ]
+    },
+    {
+      "type": "manga",
+      "properties": [
+        {
+          "property": "type",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "subType",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "title",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "englishTitle",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "year",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "dataSource",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "url",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "id",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "plot",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "alternateTitles",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "genres",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "authors",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "chapters",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "volumes",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "onlineRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "image",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "released",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "status",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "publishedFrom",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "publishedTo",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "watched",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "lastWatched",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "personalRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "tags",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        }
+      ]
+    },
+    {
+      "type": "game",
+      "properties": [
+        {
+          "property": "type",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "subType",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "title",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "englishTitle",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "year",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "dataSource",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "url",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "id",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "developers",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "publishers",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "genres",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "onlineRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "image",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "released",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "releaseDate",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "played",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "personalRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "tags",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        }
+      ]
+    },
+    {
+      "type": "wiki",
+      "properties": [
+        {
+          "property": "type",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "subType",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "title",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "englishTitle",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "year",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "dataSource",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "url",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "id",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "wikiUrl",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "lastUpdated",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "length",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "tags",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        }
+      ]
+    },
+    {
+      "type": "musicRelease",
+      "properties": [
+        {
+          "property": "type",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "subType",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "title",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "englishTitle",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "year",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "dataSource",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "url",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "id",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "genres",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "artists",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "image",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "rating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "personalRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "tags",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        }
+      ]
+    },
+    {
+      "type": "boardgame",
+      "properties": [
+        {
+          "property": "type",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "subType",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "title",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "englishTitle",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "year",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "dataSource",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "url",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "id",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "genres",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "onlineRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "complexityRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "minPlayers",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "maxPlayers",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "playtime",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "publishers",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "image",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "released",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "played",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "personalRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "tags",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        }
+      ]
+    },
+    {
+      "type": "book",
+      "properties": [
+        {
+          "property": "type",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "subType",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "title",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "englishTitle",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "year",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "dataSource",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "url",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "id",
+          "newProperty": "",
+          "locked": true,
+          "mapping": "default"
+        },
+        {
+          "property": "author",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "plot",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "pages",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "image",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "onlineRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "isbn",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "isbn13",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "released",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "read",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "lastRead",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "personalRating",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        },
+        {
+          "property": "tags",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "remove"
+        }
+      ]
+    }
+  ]
+}
