@@ -1,0 +1,67 @@
+filters:
+  and:
+    - list(Category).toString().contains("Films")
+formulas:
+  Untitled 2: if(file.backlinks.map(value.asFile().properties.Publisher).unique().length == 0, "None", if(file.backlinks.map(value.asFile().properties.Publisher).unique().length == 1, file.backlinks.map(value.asFile().properties.Publisher).unique(), "Various"))
+  Untitled 3: |-
+    ((file.backlinks
+      .filter(value.asFile() != null && value.asFile().properties.Completed == true)
+      .length / file.backlinks
+      .length) * 100).round() + "%"
+  Status: |-
+    if(file.backlinks.filter(value.asFile() != null && value.asFile().properties.In_progress == true)
+      .length == 0, "Not started", if(file.backlinks.filter(value.asFile() != null && value.asFile().properties.Completed == true)
+      .length == file.backlinks.length, "Completed", "In progress"))
+  Studio: if(file.backlinks.map(value.asFile().properties.Studio).unique().length == 0, "None", if(file.backlinks.map(value.asFile().properties.Studio).unique().length == 1, file.backlinks.map(value.asFile().properties.Studio).unique(), "Various"))
+properties:
+  formula.Untitled 2:
+    displayName: Publishers
+  formula.Untitled 3:
+    displayName: Progress
+views:
+  - type: cards
+    name: In progress
+    filters:
+      and:
+        - file.inFolder("02 Hobbies/Franchises")
+        - file.backlinks.filter(value.asFile() != null && value.asFile().properties.In_progress == true).length != 0
+        - file.backlinks.filter(value.asFile() != null && value.asFile().properties.Completed == true).length != file.backlinks.length
+        - Category.containsAny(link("🎬 Films Vault", "Films"))
+    order:
+      - file.name
+      - formula.Studio
+      - formula.Untitled 3
+    image: note.Banner
+    cardSize: 250
+    imageAspectRatio: 0.5
+  - type: cards
+    name: Not started
+    filters:
+      and:
+        - file.inFolder("02 Hobbies/Franchises")
+        - |-
+          file.backlinks.filter(value.asFile() != null && value.asFile().properties.In_progress == true)
+            .length == 0
+        - Category.containsAny(link("🎬 Films Vault", "Films"))
+    order:
+      - file.name
+      - formula.Studio
+    image: note.Banner
+    cardSize: 250
+    imageAspectRatio: 0.5
+  - type: cards
+    name: Completed
+    filters:
+      and:
+        - file.inFolder("02 Hobbies/Franchises")
+        - file.backlinks.map(value.asFile().properties.Category).unique().toString().contains("Films") == true
+        - |-
+          file.backlinks.filter(value.asFile() != null && value.asFile().properties.Completed == true)
+            .length == file.backlinks.length
+        - Category.containsAny(link("🎬 Films Vault", "Films"))
+    order:
+      - file.name
+      - formula.Studio
+    image: note.Banner
+    cardSize: 250
+    imageAspectRatio: 0.5
