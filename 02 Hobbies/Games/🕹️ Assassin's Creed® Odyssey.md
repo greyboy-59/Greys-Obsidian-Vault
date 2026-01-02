@@ -1,8 +1,8 @@
 ---
-Banner: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/0eb067f51621d195ff76b77b71a210d06f3355b6/header_alt_assets_1.jpg?t=1765448238
+Banner: https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/header.jpg?t=1758656673
 Category: "[[🕹️ Gaming Hub|Video games]]"
 type: game
-Release date: 2025-03-19
+Release date: 2018-10-05
 Developer:
   - "[[Ubisoft]]"
 Publisher:
@@ -19,8 +19,8 @@ Platform:
   - "[[🎮 PC]]"
 Console:
 Franchise:
-More info: https://store.steampowered.com/app/3159330
-id: 3159330
+More info: https://store.steampowered.com/app/812140
+id: 812140
 dataSource: SteamAPI
 DNT: "[[🎮 All]]"
 ---
