@@ -1,0 +1,46 @@
+formulas:
+  Untitled: '"Registered games: " + file.backlinks.length'
+  Untitled 2: |-
+    "Total owned: " + 
+    file.backlinks
+      .filter(value.asFile() != null && value.asFile().properties.Owned == true)
+      .length
+  Untitled 3: |-
+    "Total completed: " + 
+    file.backlinks
+      .filter(value.asFile() != null && value.asFile().properties.Completed == true)
+      .length
+  Untitled 4: ""
+properties:
+  formula.Untitled:
+    displayName: Registered items
+  formula.Untitled 2:
+    displayName: Total owned
+  file.name:
+    displayName: Name
+  formula.Untitled 3:
+    displayName: Total completed
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("02 Hobbies/Genres")
+    order:
+      - Banner
+      - file.name
+      - Category
+      - formula.Untitled
+      - formula.Untitled 3
+      - formula.Untitled 2
+      - file.backlinks
+    sort:
+      - property: Total
+        direction: ASC
+    columnSize:
+      note.Banner: 131
+      file.name: 222
+      note.Category: 206
+      formula.Untitled: 207
+      formula.Untitled 3: 243
+      formula.Untitled 2: 210
