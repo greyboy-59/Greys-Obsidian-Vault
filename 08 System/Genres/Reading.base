@@ -1,7 +1,7 @@
 formulas:
-  Untitled: '"Registered records: " + file.backlinks.length'
+  Untitled: '"Registered books: " + file.backlinks.length'
   Untitled 2: |-
-    "Pending to listen: " + 
+    "Pending to read: " + 
     file.backlinks
       .filter(value.asFile() != null && value.asFile().properties.Completed == false)
       .length
@@ -25,7 +25,7 @@ views:
     name: Genres
     filters:
       and:
-        - file.inFolder("02 Hobbies/Genres/Music")
+        - file.inFolder("02 Hobbies/Genres/Reading")
     order:
       - file.name
       - formula.Untitled
@@ -34,5 +34,5 @@ views:
     sort: []
     cardSize: 240
     image: note.Banner
-    imageAspectRatio: 0.6
+    imageAspectRatio: 0.45
     imageFit: ""
