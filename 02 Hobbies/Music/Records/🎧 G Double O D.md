@@ -1,10 +1,10 @@
 ---
-Banner: https://i1.sndcdn.com/artworks-000104166917-gol460-t500x500.jpg
+Banner: https://i.scdn.co/image/ab67616d0000b2731e590d0c75234e10097208a7
 Category: "[[🎧 Sum Songs|Music]]"
 subCategory: Single
 type: musicRelease
 Artist:
-  - "[[🏅YPH]]"
+  - "[[🏅 Swag Toof]]"
   - "[[🏅 $uicideboy$]]"
 Genre:
   - "[[🎙️ Hip Hop]]"

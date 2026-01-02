@@ -1,10 +1,10 @@
 ---
-Banner: https://i1.sndcdn.com/artworks-000104166917-gol460-t500x500.jpg
+Banner: https://i.scdn.co/image/ab67616d0000b27388b26b8f9c6c8c786a1f1f49
 Category: "[[🎧 Sum Songs|Music]]"
 subCategory: Single
 type: musicRelease
 Artist:
-  - "[[🏅YPH]]"
+  - "[[🏅 Noah23]]"
   - "[[🏅 $uicideboy$]]"
 Genre:
   - "[[🎙️ Hip Hop]]"

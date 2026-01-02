@@ -1,10 +1,10 @@
 ---
-Banner: https://i1.sndcdn.com/artworks-000104166917-gol460-t500x500.jpg
+Banner: https://i1.sndcdn.com/artworks-000200197731-zamu1l-t500x500.jpg
 Category: "[[🎧 Sum Songs|Music]]"
 subCategory: Single
 type: musicRelease
 Artist:
-  - "[[🏅YPH]]"
+  - "[[🏅B.C. tha Hybrid]]"
   - "[[🏅 $uicideboy$]]"
 Genre:
   - "[[🎙️ Hip Hop]]"

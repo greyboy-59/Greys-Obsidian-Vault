@@ -1,11 +1,12 @@
 ---
-Banner: https://i1.sndcdn.com/artworks-000104166917-gol460-t500x500.jpg
+Banner: https://i1.sndcdn.com/artworks-f0VpLKhmS6Jn-0-t500x500.png
 Category: "[[🎧 Sum Songs|Music]]"
 subCategory: Single
 type: musicRelease
 Artist:
-  - "[[🏅YPH]]"
+  - "[[🏅 Juicy J]]"
   - "[[🏅 $uicideboy$]]"
+  - "[[🏅 A$AP Rocky]]"
 Genre:
   - "[[🎙️ Hip Hop]]"
 Next: false

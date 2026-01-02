@@ -1,10 +1,10 @@
 ---
-Banner: https://i1.sndcdn.com/artworks-000104166917-gol460-t500x500.jpg
+Banner: https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a9/a7/1c/a9a71cd3-8244-ca76-920e-cfd358de4ae7/artwork.jpg/1200x630bb.jpg
 Category: "[[🎧 Sum Songs|Music]]"
 subCategory: Single
 type: musicRelease
 Artist:
-  - "[[🏅YPH]]"
+  - "[[🏅 Trez]]"
   - "[[🏅 $uicideboy$]]"
 Genre:
   - "[[🎙️ Hip Hop]]"

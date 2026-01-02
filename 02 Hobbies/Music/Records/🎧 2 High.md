@@ -1,18 +1,18 @@
 ---
-Banner: https://i1.sndcdn.com/artworks-000104166917-gol460-t500x500.jpg
+Banner: https://coverartarchive.org/release-group/49d94ab0-59db-447e-8246-a8a456caec13/front
 Category: "[[🎧 Sum Songs|Music]]"
 subCategory: Single
 type: musicRelease
 Artist:
-  - "[[🏅YPH]]"
+  - "[[🏅 Getter]]"
   - "[[🏅 $uicideboy$]]"
 Genre:
   - "[[🎙️ Hip Hop]]"
 Next: false
 In_progress: false
 Completed: false
-More info: https://musicbrainz.org/release-group/85fa40cb-ec0f-48b6-a9b5-a009585219bd
-id: 85fa40cb-ec0f-48b6-a9b5-a009585219bd
+More info: https://musicbrainz.org/release-group/49d94ab0-59db-447e-8246-a8a456caec13
+id: 49d94ab0-59db-447e-8246-a8a456caec13
 dataSource: MusicBrainz API
 DNT: "[[🎙️ All]]"
 ---

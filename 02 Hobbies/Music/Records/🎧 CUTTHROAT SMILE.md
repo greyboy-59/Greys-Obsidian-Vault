@@ -1,18 +1,18 @@
 ---
-Banner: https://i1.sndcdn.com/artworks-000104166917-gol460-t500x500.jpg
+Banner: https://coverartarchive.org/release-group/115694f3-bb9e-4979-a8e3-bfcb379ce16a/front
 Category: "[[🎧 Sum Songs|Music]]"
 subCategory: Single
 type: musicRelease
 Artist:
-  - "[[🏅YPH]]"
+  - "[[🏅 BEXEY]]"
   - "[[🏅 $uicideboy$]]"
 Genre:
   - "[[🎙️ Hip Hop]]"
 Next: false
 In_progress: false
 Completed: false
-More info: https://musicbrainz.org/release-group/85fa40cb-ec0f-48b6-a9b5-a009585219bd
-id: 85fa40cb-ec0f-48b6-a9b5-a009585219bd
+More info: https://musicbrainz.org/release-group/115694f3-bb9e-4979-a8e3-bfcb379ce16a
+id: 115694f3-bb9e-4979-a8e3-bfcb379ce16a
 dataSource: MusicBrainz API
 DNT: "[[🎙️ All]]"
 ---

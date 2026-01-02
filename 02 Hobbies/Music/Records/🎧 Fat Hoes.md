@@ -1,11 +1,13 @@
 ---
-Banner: https://i1.sndcdn.com/artworks-000104166917-gol460-t500x500.jpg
+Banner: https://i.scdn.co/image/ab67616d0000b273da7a8b8634423d995e3307a1
 Category: "[[🎧 Sum Songs|Music]]"
 subCategory: Single
 type: musicRelease
 Artist:
-  - "[[🏅YPH]]"
+  - "[[🏅 Pouya]]"
   - "[[🏅 $uicideboy$]]"
+  - "[[🏅 Germ]]"
+  - "[[🏅 SDotBraddy]]"
 Genre:
   - "[[🎙️ Hip Hop]]"
 Next: false
