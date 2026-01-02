@@ -1,0 +1,54 @@
+formulas:
+  Status: |-
+    if(Platinum == true, "Platinum",
+    if(Completed == true, "Completed",
+    if(note["In progress"] == true, "In progress",
+    if(Owned == true, "Ready to start",
+    "Not started"
+    ))))
+  Untitled: ""
+properties:
+  file.name:
+    displayName: Name
+  note.banner:
+    displayName: Banner
+  note.platform:
+    displayName: Platform
+  note.developer:
+    displayName: Developer
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("02 Hobbies/Music")
+    order:
+      - Banner
+      - file.name
+      - Artist
+      - formula.Status
+      - Next
+      - In progress
+      - Completed
+      - Platinum
+      - subCategory
+    sort:
+      - property: Platform
+        direction: ASC
+      - property: developers
+        direction: DESC
+      - property: platform
+        direction: ASC
+      - property: formula.Untitled 2
+        direction: DESC
+    columnSize:
+      note.Banner: 169
+      file.name: 253
+      note.Artist: 494
+      formula.Status: 157
+      note.Next: 102
+      note.Owned: 105
+      note.In progress: 113
+      note.Completed: 118
+      note.Platinum: 119
+      note.Platform: 143

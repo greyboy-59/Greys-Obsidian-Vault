@@ -1,1 +1,73 @@
-
+formulas:
+  Untitled 2: if(file.backlinks.map(value.asFile().properties.Publisher).unique().length == 0, "None", if(file.backlinks.map(value.asFile().properties.Publisher).unique().length == 1, file.backlinks.map(value.asFile().properties.Publisher).unique(), "Various"))
+  Untitled 3: |-
+    ((file.backlinks
+      .filter(value.asFile() != null && value.asFile().properties.Completed == true)
+      .length / file.backlinks
+      .length) * 100).round() + "%"
+  Genres: if(file.backlinks.map(value.asFile().properties.Genre).unique().length == 0, "None", if(file.backlinks.map(value.asFile().properties.Genre).unique().length == 1, file.backlinks.map(value.asFile().properties.Genre).unique(), "Various"))
+properties:
+  formula.Untitled 2:
+    displayName: Publishers
+  formula.Untitled 3:
+    displayName: Progress
+views:
+  - type: cards
+    name: In progress
+    filters:
+      and:
+        - file.folder == "02 Hobbies/Music/Artists"
+        - Category.contains(link("🎧 Sum Songs", "Music"))
+        - formula["Untitled 3"] != "100%"
+        - file.backlinks.filter(value.asFile() != null && value.asFile().properties.In_progress == true).length != 0
+    order:
+      - file.name
+      - formula.Genres
+      - formula.Untitled 3
+    sort: []
+    columnSize:
+      note.Banner: 132
+      file.name: 408
+      formula.Untitled 2: 360
+      formula.Untitled 3: 208
+    image: note.Banner
+    imageAspectRatio: 0.5
+  - type: cards
+    name: Not started
+    filters:
+      and:
+        - file.folder == "02 Hobbies/Music/Artists"
+        - Category.contains(link("🎧 Sum Songs", "Music"))
+        - |-
+          file.backlinks.filter(value.asFile() != null && value.asFile().properties.In_progress == true)
+            .length == 0
+    order:
+      - file.name
+      - formula.Genres
+    sort: []
+    columnSize:
+      note.Banner: 132
+      file.name: 408
+      formula.Untitled 2: 360
+      formula.Untitled 3: 208
+    image: note.Banner
+    imageAspectRatio: 0.5
+  - type: cards
+    name: Completed
+    filters:
+      and:
+        - file.folder == "02 Hobbies/Music/Artists"
+        - Category.contains(link("🎧 Sum Songs", "Music"))
+        - formula["Untitled 3"] == "100%"
+    order:
+      - file.name
+      - formula.Genres
+      - formula.Untitled 3
+    sort: []
+    columnSize:
+      note.Banner: 132
+      file.name: 408
+      formula.Untitled 2: 360
+      formula.Untitled 3: 208
+    image: note.Banner
+    imageAspectRatio: 0.5

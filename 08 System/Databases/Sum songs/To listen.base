@@ -1,0 +1,38 @@
+formulas:
+  Status: |-
+    if(Platinum == true, "Platinum",
+    if(Completed == true, "Completed",
+    if(note["In progress"] == true, "In progress",
+    if(Owned == true, "Ready to start",
+    "Not started"
+    ))))
+properties:
+  file.name:
+    displayName: Name
+  note.banner:
+    displayName: Banner
+  note.platform:
+    displayName: Platform
+  note.developer:
+    displayName: Developer
+views:
+  - type: table
+    name: Music
+    filters:
+      and:
+        - file.inFolder("02 Hobbies/Music/Records")
+        - Next != true
+    groupBy:
+      property: subCategory
+      direction: DESC
+    order:
+      - file.name
+      - Artist
+      - Next
+    sort:
+      - property: Platform
+        direction: ASC
+    columnSize:
+      file.name: 497
+      note.Artist: 316
+      note.Next: 70

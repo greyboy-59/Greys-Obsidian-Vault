@@ -1,0 +1,33 @@
+formulas:
+  Status: |-
+    if(Platinum == true, "Platinum",
+    if(Completed == true, "Completed",
+    if(note["In progress"] == true, "In progress",
+    if(Owned == true, "Ready to start",
+    "Not started"
+    ))))
+properties:
+  file.name:
+    displayName: Name
+  note.banner:
+    displayName: Banner
+  note.platform:
+    displayName: Platform
+  note.developer:
+    displayName: Developer
+  note.artists:
+    displayName: Artist
+views:
+  - type: cards
+    name: Music
+    filters:
+      and:
+        - file.inFolder("02 Hobbies/Music/Records")
+        - Next == true
+        - Completed != true
+    order:
+      - file.name
+      - subCategory
+    image: note.banner
+    imageAspectRatio: 1
+    cardSize: 250
