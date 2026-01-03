@@ -76,4 +76,6 @@ If any of those properties are removed, some functions within each dashboard or 
 
 In case you have any questions or recommendations, or if you would simply like to send me a message, please feel free to contact me via my Reddit username, u/greyboy_59.
 
+Disclaimer: This vault may contain the work of other creators, including plugins, illustrations and more. All credits belong to them.
+
 Grey,
